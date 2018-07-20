@@ -1,0 +1,27 @@
+.item {
+	padding: 10px;
+	margin-bottom: 5px;
+	background-color: cadetblue;
+	border: 2px solid;
+	border-radius: 5px;
+}
+
+.item > span {
+	margin-right: 10px;
+}
+
+.item > button {
+	display: inline-flex;
+	background-color: #fff;
+	color: #333;
+	padding: 5px;
+	border: 2px solid #333;
+	font-size: 12px;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.item > button:hover {
+	background-color: #000;
+	color: #fff;
+}
